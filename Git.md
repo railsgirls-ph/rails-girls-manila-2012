@@ -1,10 +1,8 @@
 # Git
--------------
 
 Git is a version control system, a simple command line tool for keeping a history on the state of your source code projects. You use it as you might use something like Subversion, CVS or Perforce.
 
 ## Resources
--------------
 
 ### <a href ="http://git-scm.com/book" target="_blank"> Pro Git: A free definitive book written by Scott Chacon</a>
 ### <a href ="https://github.com/progit/progit" target="_blank"> Pro Git contents updated the community</a>
@@ -64,7 +62,6 @@ Fore more files to ignore, check the <a href="https://github.com/github/gitignor
 
 
 ## Git Hosting (usually free)
------------------------------
 
 ### <a href ="http://assembla.com/" target="_blank"> Assembla </a>
 ### <a href ="https://github.com/" target="_blank"> Github </a>
@@ -72,7 +69,6 @@ Fore more files to ignore, check the <a href="https://github.com/github/gitignor
 
 
 ## Setting up git on shared hosting
-----------------------
 
 You need an SSH user or a user who can log in to your account via a terminal.
 
