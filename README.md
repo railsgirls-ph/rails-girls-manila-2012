@@ -5,7 +5,6 @@
 ## What Everyone Interested Should Know
 ---------------------------------------
 
-
 *   <strong>Ruby</strong> and <strong>Ruby on Rails</strong> is open source and so are the documentations and <a href="http://guides.rubyonrails.org/" target="_blank">guides</a>.
 *   Learning software development requires a lot of reading and writing.
 *   Change is the only thing that is constant and it is true in software development. <a href="http://vimeo.com/51181496" target="_blank"> Rails 4 is coming</a>
@@ -44,7 +43,6 @@ We like to give you some hints and tips so you can benefit from the event and no
 ### Day 2/ November 24, 2012
 ---------------------------------------
 
-
 > Unit 502 5/F Orient Square Bldg.,
 > F. Ortigas Jr. (formerly Emerald Ave.),
 > Ortigas Center, Pasig City 1605
@@ -56,7 +54,7 @@ We like to give you some hints and tips so you can benefit from the event and no
 *   Some coaches will give quick notes on developing Ruby on Rails applications.
 *   You will be grouped after the talks.
 
-## Organizes and Partners
+## Organizers and Partners
 ---------------------------------------
 ### <a target="_blank" href="http://groups.google.com/group/ruby-phil">Philippine Ruby Users Group</a>
 
