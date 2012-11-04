@@ -23,11 +23,8 @@ We like to give you some hints and tips so you can benefit from the event and no
 ---------------------------------------
 
 *   You can install <a href="http://guides.railsgirls.com/install/" target="_blank">Ruby on Rails</a> before the event but we still recommend you attend the installation party. <a href="http://guides.railsgirls.com/install/" target="_blank">Follow the guides.</a> If things go wrong, try again. If you give up, you definitely have to attend the installation party.
-
 *   You can do your research and even create a Ruby on Rails application if you haven't yet. We recommend this way of learning. Try it alone. Those prepared can ask more relevant questions. Any or all of the coaches can answer.
-
 *   Learn <a href="http://www.codeschool.com/courses/try-git" target="_blank">Git</a> if you haven't yet. We use you Git for source control management.
-
 *   We might send you emails of resources you might want to read before the event.
 
 
@@ -57,7 +54,7 @@ We like to give you some hints and tips so you can benefit from the event and no
 *   <a href="http://ph.linkedin.com/in/maricris122680" target="_blank"> Maricris Nonato </a> will speak about Software Development in general.
 *    <a href="http://www.bryanbibat.net/" target="_blank"> Bryan Bibat </a> will give introduction to Ruby and Ruby on Rails.
 *   Some coaches will give quick notes on developing Ruby on Rails applications.
-
+*   You will be grouped after the talks.
 
 ## Organizes and Partners
 ---------------------------------------
@@ -65,7 +62,6 @@ We like to give you some hints and tips so you can benefit from the event and no
 
 ### <a target="_blank" href="http://devcon.ph/">DevCon</a>
 #### <a target="_blank" href="http://webgeek.ph/">WebGeek Philippines</a>
-
 
 
 ## Sponsors
