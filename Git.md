@@ -67,7 +67,6 @@ Fore more files to ignore, check the <a href="https://github.com/github/gitignor
 ### <a href ="https://github.com/" target="_blank"> Github </a>
 
 
-
 ## Setting up git on shared hosting
 
 You need an SSH user or a user who can log in to your account via a terminal.
