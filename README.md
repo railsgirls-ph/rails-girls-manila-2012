@@ -59,6 +59,13 @@ We like to give you some hints and tips so you can benefit from the event and no
 *   Some coaches will give quick notes on developing Ruby on Rails applications.
 
 
+## Organizes and Partners
+---------------------------------------
+### <a target="_blank" href="http://groups.google.com/group/ruby-phil">Philippine Ruby Users Group</a>
+
+### <a target="_blank" href="http://devcon.ph/">DevCon</a>
+#### <a target="_blank" href="http://webgeek.ph/">WebGeek Philippines</a>
+
 
 
 ## Sponsors
@@ -66,7 +73,7 @@ We like to give you some hints and tips so you can benefit from the event and no
 
 ### <a target="_blank" href="http://aelogica.com/">Aelogica</a>
 ### <a target="_blank" href="http://smart.com.ph/">SMART Communications, Inc. </a>
-### <a target="_blank" href="http://www.proudcloud.net/">Proudcloud</a>
-### <a target="_blank" href="http://www.sourcepad.com/">SourcePad</a>
-### <a target="_blank" href="http://www.globe.com.ph">Globe Labs</a>
-### <a target="_blank" href="http://www.exist.com/">Exist Software Labs, Inc.</a>
+#### <a target="_blank" href="http://www.proudcloud.net/">Proudcloud</a>
+#### <a target="_blank" href="http://www.sourcepad.com/">SourcePad</a>
+#### <a target="_blank" href="http://www.globe.com.ph">Globe Labs</a>
+#### <a target="_blank" href="http://www.exist.com/">Exist Software Labs, Inc.</a>
