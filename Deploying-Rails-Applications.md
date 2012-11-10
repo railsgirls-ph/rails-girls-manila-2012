@@ -106,14 +106,20 @@ rm public/index.html
 rails g controller Home index
 </pre>
 
-Update the text as you wish.
-
+Update the text as you wish on app/views/home/index.html.erb
 
 #### Deploying is very simple
 
 <pre>
 git push heroku master
 </pre>
+
+#### Migrations
+
+<pre>
+heroku run rake db:migrate
+</pre>
+
 
 ## Credits
 
