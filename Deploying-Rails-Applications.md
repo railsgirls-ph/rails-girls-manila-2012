@@ -30,6 +30,19 @@ heroku create
 
 Rename the app and the URL via heroku.com.
 
+#### Make sure you have the new version of rails
+
+<pre>
+rails -v
+Rails 3.2.8
+</pre>
+
+Otherwise, please install rails.
+
+<pre>
+gem install rails
+</pre>
+
 #### Create the rails app
 
 <pre>
