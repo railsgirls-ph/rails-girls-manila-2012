@@ -1,12 +1,42 @@
 # Git
 
-Git is a version control system, a simple command line tool for keeping a history on the state of your source code projects. You use it as you might use something like Subversion, CVS or Perforce.
+Git is a version control system, a simple command line tool for keeping a history on the state of your source code projects.
 
-## Resources
+## Getting Started
 
-### <a href ="http://git-scm.com/book" target="_blank"> Pro Git: A free definitive book written by Scott Chacon</a>
-### <a href ="https://github.com/progit/progit" target="_blank"> Pro Git contents updated the community</a>
-### <a href ="http://railscasts.com/episodes/96-git-on-rails" target="_blank"> Git on Rails </a>
+
+### Installation
+-------------------------
+
+For Ubuntu/ Debian users:
+
+
+<pre>
+sudo apt-get install git
+</pre>
+
+For Mac OS X users who user homebrew:
+
+<pre>
+brew install git
+</pre>
+
+For Windows users, download and install <a href="http://railsinstaller.org/" target="_blank">Rails Installer</a> which comes with mysisgit
+
+### Configuration
+-------------------------
+
+<pre>
+git config --global user.email "me@here.com"
+git config --global user.name "Your Name"
+</pre>
+
+### Recommended Guides for Git Beginners
+-------------------------
+
+### <a href ="http://rogerdudler.github.com/git-guide/" target="_blank"> git - the simple guide (no deep shit) </a>
+
+### <a href ="http://gitimmersion.com/" target="_blank"> Git immersion </a>
 
 
 ### Defining a Gitignore
@@ -60,14 +90,33 @@ Icon
 
 Fore more files to ignore, check the <a href="https://github.com/github/gitignore/tree/master/Global" target="_blank">gitignore</a> list updated by several developers worldwide.
 
+### Creating a new git repository
+-------------------------------
 
-## Git Hosting (usually free)
+<pre>
+mkdir something
+cd something
+git init
+</pre>
+
+
+
+### Git Hosting
+-------------------------------
 
 ### <a href ="http://assembla.com/" target="_blank"> Assembla </a>
+
 ### <a href ="https://github.com/" target="_blank"> Github </a>
 
 
-## Setting up git on shared hosting
+### Ruby on Rails Hosting
+-------------------------------
+
+### <a href ="https://heroku.com/" target="_blank"> Heroku </a>
+
+
+### Setup Git on a Shared Hosting Server
+-------------------------------
 
 You need an SSH user or a user who can log in to your account via a terminal.
 
@@ -86,3 +135,77 @@ Your git repository link would look like:
 <pre>
 user@host:~/project
 </pre>
+
+### Connect repository to a remote server
+-------------------------------
+
+<pre>
+git remote add origin path/to/remote/repo.git
+</pre>
+
+### Checking for changes
+-------------------------------
+
+<pre>
+git status
+</pre>
+
+### Make sure you can edit commit messages with your editor
+-------------------------------
+
+If you are using MacVim:
+
+<pre>
+git config --global core.editor "mvim"
+</pre>
+
+If you are using Sublime Text 2 on a Mac:
+
+<pre>
+Install <a href="http://www.sublimetext.com/docs/2/osx_command_line.html" target="_blank">subl</a>
+git config --global core.editor "subl -n -w"
+</pre>
+
+### Adding up changes
+-------------------------------
+
+If you want to add modified files, new files and remove deleted files:
+
+<pre>
+git add -A
+</pre>
+
+If you want to add a specific file:
+
+<pre>
+git add filename
+</pre>
+
+
+### Updating the remote repository
+-------------------------------
+
+<pre>
+git push origin master
+</pre>
+
+
+### Retrieving changes from the remote repository
+-------------------------------
+
+<pre>
+git pull origin master
+</pre>
+
+
+## Other Resources
+
+### <a href ="http://git-scm.com/book" target="_blank"> Pro Git: A free definitive book written by Scott Chacon</a>
+### <a href ="https://github.com/progit/progit" target="_blank"> Pro Git contents updated the community</a>
+### <a href ="http://railscasts.com/episodes/96-git-on-rails" target="_blank"> Git on Rails </a>
+
+
+## Contributors to this guide
+
+<a href ="https://blog.bridgeutiopiaweb.com" target="_blank"> Katherine G. Pe</a>, software developer.
+
