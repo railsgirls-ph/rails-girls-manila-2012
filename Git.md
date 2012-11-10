@@ -9,13 +9,13 @@ Git is a version control system, a simple command line tool for keeping a histor
 
 For Ubuntu/ Debian users:
 
-<pre>
+<pre class="brush: shell">
 sudo apt-get install git
 </pre>
 
-For Mac OS X users who user homebrew:
+For Mac OS X users who use homebrew:
 
-<pre>
+<pre class="brush: shell">
 brew install git
 </pre>
 
@@ -24,7 +24,7 @@ For Windows users, download and install <a href="http://railsinstaller.org/" tar
 ### Configuration
 -------------------------
 
-<pre>
+<pre class="brush: shell">
 git config --global user.email "me@here.com"
 git config --global user.name "Your Name"
 </pre>
@@ -50,7 +50,7 @@ The .global_gitgnore resides on your home directory. If you use Linux or OS X, t
 
 #### Common files and folders to ignore for a Ruby on Rails project
 
-<pre>
+<pre class="brush: ruby">
 *.rbc
 *.sassc
 .sass-cache
@@ -71,7 +71,7 @@ pickle-email-*.html
 
 For OS X users, we ignore the following files:
 
-<pre>
+<pre class="brush: ruby">
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -91,7 +91,7 @@ Fore more files to ignore, check the <a href="https://github.com/github/gitignor
 ### Creating a new git repository
 -------------------------------
 
-<pre>
+<pre class="brush: shell">
 mkdir something
 cd something
 git init
@@ -117,7 +117,7 @@ git init
 
 You need an SSH user or a user who can log in to your account via a terminal.
 
-<pre>
+<pre class="brush: shell">
 ssh user@host
 
 mkdir project
@@ -136,14 +136,14 @@ user@host:~/project
 ### Connect repository to a remote server
 -------------------------------
 
-<pre>
+<pre class="brush: shell">
 git remote add origin path/to/remote/repo.git
 </pre>
 
 ### Checking for changes
 -------------------------------
 
-<pre>
+<pre class="brush: shell">
 git status
 </pre>
 
@@ -152,7 +152,7 @@ git status
 
 If you are using MacVim:
 
-<pre>
+<pre class="brush: shell">
 git config --global core.editor "mvim"
 </pre>
 
@@ -166,20 +166,20 @@ git config --global core.editor "subl -n -w"
 ### Determine the current branch
 -------------------------------
 
-<pre>
+<pre class="brush: shell">
 git branch
 </pre>
 
 ### Checkout a branch
 -------------------------------
 
-<pre>
+<pre class="brush: shell">
 git checkout branch-name
 </pre>
 
 If you just to want to add a specific file:
 
-<pre>
+<pre class="brush: shell">
 git add filename
 </pre>
 
@@ -189,32 +189,36 @@ git add filename
 
 If you want to add modified files, new files and remove deleted files:
 
-<pre>
+<pre class="brush: shell">
 git add -A
 </pre>
 
 If you just to want to add a specific file:
 
-<pre>
+<pre class="brush: shell">
 git add filename
 </pre>
 
 
 ### Commit message
 -------------------------------
-<pre>
+<pre class="brush: shell">
 git commit -m "message"
+
+</pre>
 
 or
 
-git commit -a (opens up an editor)
+<pre class="brush: ruby">
+#opens up an editor
+git commit -a
 </pre>
 
 
 ### Updating the remote repository
 -------------------------------
 
-<pre>
+<pre class="brush: shell">
 git push origin master
 </pre>
 
@@ -222,7 +226,7 @@ git push origin master
 ### Retrieving changes from the remote repository
 -------------------------------
 
-<pre>
+<pre class="brush: shell">
 git pull origin master
 </pre>
 

@@ -18,13 +18,13 @@ Download the <a href="https://toolbelt.heroku.com/" target="_blank">Heroku Toolb
 
 #### Sign in if you haven't yet.
 
-<pre>
+<pre class="brush: shell">
 heroku login
 </pre>
 
 #### Create the heroku app
 
-<pre>
+<pre class="brush: shell">
 heroku create
 </pre>
 
@@ -32,20 +32,20 @@ Rename the app and the URL via heroku.com.
 
 #### Make sure you have the new version of rails
 
-<pre>
+<pre class="brush: shell">
 rails -v
 Rails 3.2.8
 </pre>
 
 Otherwise, please install rails.
 
-<pre>
+<pre class="brush: shell">
 gem install rails
 </pre>
 
 #### Create the rails app
 
-<pre>
+<pre class="brush: shell">
 rails new railsgirls
 </pre>
 
@@ -57,11 +57,11 @@ We'll use sqlite3 for development and pg for production.
 
 Change
 
-<pre>
+<pre class="brush: ruby">
  gem 'sqlite3'
 </pre>
 
-<pre>
+<pre class="brush: ruby">
 group :development do
   gem 'sqlite3'
 end
@@ -73,13 +73,13 @@ end
 
 Install the gems.
 
-<pre>
+<pre class="brush: shell">
 bundle install
 </pre>
 
 #### Link to remote repository
 
-<pre>
+<pre class="brush: shell">
 git remote add heroku path/to/heroku.git
 </pre>
 
@@ -90,7 +90,7 @@ We recommend this instead of simply adding password and sensitive information on
 
 Sign in on heroku to view the credentials for your postgresql database.
 
-<pre>
+<pre class="brush: shell">
 heroku config:add RG_HOST host
 heroku config:add RG_DATABASE database
 heroku config:add RG_USER user
@@ -100,7 +100,7 @@ heroku config:add RG_PORT port
 
 Update the app config/database.yml
 
-<pre>
+<pre class="brush: ruby">
 
 production:
   adapter: postgresql
@@ -114,7 +114,7 @@ production:
 </pre>
 
 #### Creating a home page
-<pre>
+<pre class="brush: shell">
 rm public/index.html
 rails g controller Home index
 </pre>
@@ -123,13 +123,13 @@ Update the text as you wish on app/views/home/index.html.erb
 
 #### Deploying is very simple
 
-<pre>
+<pre class="brush: shell">
 git push heroku master
 </pre>
 
 #### Migrations
 
-<pre>
+<pre class="brush: shell">
 heroku run rake db:migrate
 </pre>
 
