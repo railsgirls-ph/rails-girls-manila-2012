@@ -12,9 +12,7 @@ Please read the <a href="http://railsgirls.pinoyrb.org/git">Git Guide</a> before
 
 Heroku provides the most simple way of deploying a Rails app. All you have to learn is Git.
 
-<iframe src="http://player.vimeo.com/video/53217192?badge=0" width="960" height="402" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/53217192">Deploy a Ruby on Rails Application on Heroku</a> from <a href="http://vimeo.com/user1423329">Katherine G Pe</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
-
-<a href="https://vimeo.com/53217192">Click here to view the video</a>
+<a href="http://vimeo.com/53217192" target="_blank">View The Video on How To Deploy a Ruby on Rails Application on Heroku</a>
 
 Download the <a href="https://toolbelt.heroku.com/" target="_blank">Heroku Toolbelt</a>
 
