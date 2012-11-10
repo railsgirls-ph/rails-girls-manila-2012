@@ -4,12 +4,10 @@ Git is a version control system, a simple command line tool for keeping a histor
 
 ## Getting Started
 
-
 ### Installation
 -------------------------
 
 For Ubuntu/ Debian users:
-
 
 <pre>
 sudo apt-get install git
@@ -100,7 +98,6 @@ git init
 </pre>
 
 
-
 ### Git Hosting
 -------------------------------
 
@@ -166,6 +163,27 @@ Install <a href="http://www.sublimetext.com/docs/2/osx_command_line.html" target
 git config --global core.editor "subl -n -w"
 </pre>
 
+### Determine the current branch
+-------------------------------
+
+<pre>
+git branch
+</pre>
+
+### Checkout a branch
+-------------------------------
+
+<pre>
+git checkout branch-name
+</pre>
+
+If you just to want to add a specific file:
+
+<pre>
+git add filename
+</pre>
+
+
 ### Adding up changes
 -------------------------------
 
@@ -175,7 +193,7 @@ If you want to add modified files, new files and remove deleted files:
 git add -A
 </pre>
 
-If you want to add a specific file:
+If you just to want to add a specific file:
 
 <pre>
 git add filename
@@ -208,4 +226,3 @@ git pull origin master
 ## Contributors to this guide
 
 <a href ="https://blog.bridgeutiopiaweb.com" target="_blank"> Katherine G. Pe</a>, software developer.
-
