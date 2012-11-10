@@ -226,3 +226,8 @@ git pull origin master
 ## Contributors to this guide
 
 <a href ="https://blog.bridgeutiopiaweb.com" target="_blank"> Katherine G. Pe</a>, software developer.
+
+
+## Contributing
+
+<a href ="https://github.com/railsgirls-ph/rails-girls-manila-2012" target="_blank"> Fork the project and create a pull request if you have some changes</a>
