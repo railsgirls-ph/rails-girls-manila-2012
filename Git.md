@@ -200,6 +200,17 @@ git add filename
 </pre>
 
 
+### Commit message
+-------------------------------
+<pre>
+git commit -m "message"
+
+or
+
+git commit -a (opens up an editor)
+</pre>
+
+
 ### Updating the remote repository
 -------------------------------
 
@@ -225,7 +236,7 @@ git pull origin master
 
 ## Contributors to this guide
 
-<a href ="https://blog.bridgeutiopiaweb.com" target="_blank"> Katherine G. Pe</a>, software developer.
+<a href ="https://blog.bridgeutopiaweb.com" target="_blank"> Katherine G. Pe</a>, software developer.
 
 
 ## Contributing

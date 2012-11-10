@@ -141,7 +141,7 @@ heroku run rake db:migrate
 
 ## Contributors to this guide
 
-<a href ="https://blog.bridgeutiopiaweb.com" target="_blank"> Katherine G. Pe</a>, software developer.
+<a href ="https://blog.bridgeutopiaweb.com" target="_blank"> Katherine G. Pe</a>, software developer.
 
 
 ## Contributing
