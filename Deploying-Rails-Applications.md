@@ -42,6 +42,11 @@ Use <a href="http://www.postgresql.org/" target="_blank">postgresql</a> database
 
 We'll use sqlite3 for development and pg for production.
 
+Change
+
+<pre>
+ gem 'sqlite3'
+</pre>
 
 <pre>
 group :development do
@@ -58,6 +63,13 @@ Install the gems.
 <pre>
 bundle install
 </pre>
+
+#### Link to remote repository
+
+<pre>
+git remote add heroku path/to/heroku.git
+</pre>
+
 
 #### Adding config vars on Heroku
 
@@ -88,11 +100,24 @@ production:
   port: ENV['RG_PORT']
 </pre>
 
+#### Creating a home page
+<pre>
+rm public/index.html
+rails g controller Home index
+</pre>
+
+Update the text as you wish.
+
+
 #### Deploying is very simple
 
 <pre>
-git push origin master
+git push heroku master
 </pre>
+
+## Credits
+
+<a href ="http://guides.railsgirls.com/heroku/" target="_blank"> Put Your App Online With Heroku</a> by <a href="https://twitter.com/hone02" target="_blank">Terence Lee </a>.
 
 
 ## Contributors to this guide
