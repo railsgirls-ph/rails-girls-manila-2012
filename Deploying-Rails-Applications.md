@@ -61,6 +61,8 @@ Change
  gem 'sqlite3'
 </pre>
 
+To
+
 <pre class="brush: ruby">
 group :development do
   gem 'sqlite3'
@@ -114,10 +116,26 @@ production:
 </pre>
 
 #### Creating a home page
+
 <pre class="brush: shell">
 rm public/index.html
 rails g controller Home index
 </pre>
+
+#### Updating the routes
+
+Change
+
+<pre class="brush: ruby">
+# root :to => 'welcome#index'
+</pre>
+
+To
+
+<pre class="brush: ruby">
+root :to => 'home#index'
+</pre>
+
 
 Update the text as you wish on app/views/home/index.html.erb
 
