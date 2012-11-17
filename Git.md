@@ -10,7 +10,7 @@ Git is a version control system, a simple command line tool for keeping a histor
 For Ubuntu/ Debian users:
 
 <pre class="brush: shell">
-sudo apt-get install git
+sudo apt-get install git-core
 </pre>
 
 For Mac OS X users who use homebrew:
