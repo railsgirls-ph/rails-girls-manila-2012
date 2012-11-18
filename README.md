@@ -68,7 +68,7 @@ Coaches should guide participants on what to use.
 * For those using RVM (on either Mac or Linux), it would help to upgrade to <a href="http://www.ruby-lang.org/en/news/2012/11/09/ruby-1-9-3-p327-is-released/" target="_blank">Ruby 1.9.3 patchlevel 327</a> if you don't already use it.
 
 
-    #Upgrade
+    // Upgrade
    <pre>
     rvm get latest
     rvm reinstall 1.9.3
