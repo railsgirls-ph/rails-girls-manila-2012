@@ -12,7 +12,7 @@ This guide is written primarily for Rails Girls Manila participants. It was writ
 ## Getting Started
 -----
 
-### <a href="http://guides.railsgirls.com/install/ target="_blank">Setup Recipe for Rails Girls</a>
+### <a href="http://guides.railsgirls.com/install/" target="_blank">Setup Recipe for Rails Girls</a>
 
 The coaches should help in case anything fails.
 
@@ -20,6 +20,8 @@ The coaches should help in case anything fails.
 ### Choosing a Relational Database Management System
 
 With ActiveRecord, it's possible to use any popular RDBMS. That includes MySQL, PostgreSQL and SQLite3.
+
+Coaches should guide participants on what to use.
 
 #### MySQL
 
@@ -113,7 +115,6 @@ You should see errors when you try to start the server.
 ### Learning about environments
 
 We normal work in at least three different environments: **development**, **test** and **production**. Under certain circumstances, another environment called "staging" exists. Rails intuitively gives us the option to add these staging environment by replicating the production environment.
-
 
 
 ## Organizers and Partners
