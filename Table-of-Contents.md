@@ -1,4 +1,4 @@
-<ul class="sidebar fourcol">
+<ul>
   <li> <a href="http://railsgirls.pinoyrb.org/guides" title="Overview and Installation of Ruby on Rails">Overview and Installation Guide</a> </li>
   <li> <a href="http://railsgirls.pinoyrb.org/git" title="Using Git">Using Git</a> </li>
   <li> <a href="http://railsgirls.pinoyrb.og/ruby" title="Learn the Ruby Language"> Learn the Ruby Language</a> </li>

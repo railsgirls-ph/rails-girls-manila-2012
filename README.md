@@ -1,16 +1,13 @@
 # Rails Girls Manila
 
 ## Overview
------
 
 <a href="http://railsgirls.com/" target="_blank">Rails Girls</a> is a global effort to help girls learn programming and the Ruby on Rails framework.
 
 This guide is written primarily for Rails Girls Manila participants. It was written for beginners and those who have some experience in programming but have not tried Ruby on Rails.
 
 
-
 ## Getting Started
------
 
 ### <a href="http://guides.railsgirls.com/install/" target="_blank">Setup Recipe for Rails Girls</a>
 
@@ -134,7 +131,6 @@ We normal work in at least three different environments: **development**, **test
 
 
 ## Sponsors
----------------------------------------
 
 ### <a href="http://aelogica.com/" target="_blank">Aelogica</a>
 ### <a href="http://smart.com.ph/" target="_blank">SMART Communications, Inc. </a>
