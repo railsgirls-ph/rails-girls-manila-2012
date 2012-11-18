@@ -52,8 +52,3 @@
   <li><a href="https://www.ruby-toolbox.com"  target="_blank" title="The Ruby Toolbox">The Ruby Toolbox</a></li>
 </ul>
 
-## The future of Rails
-
-<ul>
-  <li><a href="http://vimeo.com/51181496" title="Rails 4 Whirlwind Tour" target="_blank">Rails 4: Whirlwind Tour</a>>/li>
-</ul>
