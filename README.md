@@ -121,7 +121,6 @@ You should see errors when you try to start the server.
 
 We normal work in at least three different environments: **development**, **test** and **production**. Under certain circumstances, another environment called "staging" exists. Rails intuitively gives us the option to add these staging environment by replicating the production environment.
 
-
 ## Organizers and Partners
 
 ### <a href="http://groups.google.com/group/ruby-phil" target="_blank">Philippine Ruby Users Group</a>
