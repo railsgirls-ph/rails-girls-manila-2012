@@ -4,7 +4,7 @@
 
 <ul>
   <li><a href="http://pragprog.com/book/ruby/programming-ruby" title="Programming Ruby" target="_blank">Programming Ruby</a></li>
-  <li><a href="http://mislav.uniqpath.com/poignant-guide/" title="Why's Poignant Guide to Ruby" target="_blank">Why's Poignant Guide to Ruby</a></li>
+  <li><a href="http://mislav.uniqpath.com/poignant-guide/" title="Why\'s Poignant Guide to Ruby" target="_blank">Why's Poignant Guide to Ruby</a></li>
 </ul>
 
 
@@ -12,7 +12,7 @@
 
 <ul>
   <li><a href="https://github.com/bbatsov/ruby-style-guide" title="Ruby Style Guide" target="_blank">Ruby Style Guide</a></li>
-  <li><a href="https://github.com/styleguide/ruby" title="Github's Ruby Style Guide" target="_blank">Github's Ruby Style Guide</a></li>
+  <li><a href="https://github.com/styleguide/ruby" title="Github\'s Ruby Style Guide" target="_blank">Github's Ruby Style Guide</a></li>
 </ul>
 
 

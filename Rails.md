@@ -16,6 +16,8 @@
 ## Javascript, Coffeescript, HAML, SASS and SCSS
 
 <ul>
+  <li><a href="https://github.com/airbnb/javascript" target="_blank" title="Javascript Style Guide">Javascript Style Guide</a></li>
+  <li><a href="https://github.com/madrobby/pragmatic.js" target="_blank" title="Pragmatic.js">Pragmatic.js</a></li>
   <li><a href="http://docs.jquery.com/JQuery_Core_Style_Guidelines" target="_blank" title="jQuery Core Style Guidelines">jQuery Core Style Guidelines</a></li>
   <li><a href="https://github.com/styleguide/javascript" target="_blank" title="Github's Javascript Style Guide">Github's Javascript Style Guide</a></li>
   <li><a href="https://github.com/styleguide/css" target="_blank" title="Github's CSS Style Guide">Github's CSS Style Guide</a></li>
