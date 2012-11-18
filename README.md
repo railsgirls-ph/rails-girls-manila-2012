@@ -1,64 +1,121 @@
 # Rails Girls Manila
 
-## What Everyone Interested Should Know
+## Overview
+-----
 
-*   Ruby and Ruby on Rails are open source and so are the documentations and <a href="http://guides.rubyonrails.org/" target="_blank">guides</a>.
-*   Learning software development requires a lot of reading and writing.
-*   Change is the only thing that is constant and it is true in software development. <a href="http://vimeo.com/51181496" target="_blank"> Rails 4 is coming</a>
-*   If helps to know <a href="http://diveintohtml5.info/" target="_blank">HTML5</a> well even if you are not frontend specialist.
-*   Anyone interested in software development can code in Ruby. This does not exclude girls.
+<a href="http://railsgirls.com/" target="_blank">Rails Girls</a> is a global effort to help girls learn programming and the Ruby on Rails framework.
 
-
-## What Participants Should Know
-
-We like to give you some hints and tips so you can benefit from the event and not feel disappointed.
+This guide is written primarily for Rails Girls Manila participants. It was written for beginners and those who have some experience in programming but have not tried Ruby on Rails.
 
 
-### Pre-event Preparation
 
-*   You can install <a href="http://guides.railsgirls.com/install/" target="_blank">Ruby on Rails</a> before the event but we still recommend you attend the installation party. <a href="http://guides.railsgirls.com/install/" target="_blank">Follow the guides.</a> If things go wrong, try again. If you give up, you definitely have to attend the installation party.
-*   You can do your research and even create a Ruby on Rails application if you haven't yet. We recommend this way of learning. Try it alone. Those prepared can ask more relevant questions. Any or all of the coaches can answer.
-*   Learn <a href="http://railsgirls.pinoyrb.org/git" target="_blank">Git</a> if you haven't yet. We use you Git for source control management.
-*   We might send you emails of resources you might want to read before the event.
+## Getting Started
+-----
 
+### <a href="http://guides.railsgirls.com/install/ target="_blank">Setup Recipe for Rails Girls</a>
 
-### Day 1: Friday 23rd November - Installation party
-
-> Unit 2701 in the 27th floor of Discovery Suites,
-> 25 ADB Avenue, Ortigas Center, Pasig City 1600
-> <a href="http://goo.gl/maps/rDsgk" target="_blank"> Google Maps </a>
-
-*   Attendence is a must. This is chance to get to know other participants, the organizers, coaches and some of the sponsors.
-*   We will install Ruby on Rails on your laptop or confirm that everything is installed probably on your laptop.
-*   You can ask questions but the coaches are only around for two hours or so.
+The coaches should help in case anything fails.
 
 
-### Day 2/ November 24, 2012
+### Choosing a Relational Database Management System
 
-> Unit 502 5/F Orient Square Bldg.,
-> F. Ortigas Jr. (formerly Emerald Ave.),
-> Ortigas Center, Pasig City 1605
-> <a href="http://goo.gl/maps/9o3XJ" target="_blank"> Google Maps </a>
+With ActiveRecord, it's possible to use any popular RDBMS. That includes MySQL, PostgreSQL and SQLite3.
+
+#### MySQL
+
+* For Windows users, please refer to this guide:
+
+  <a href="http://blog.mmediasys.com/2011/07/07/installing-mysql-on-windows-7-x64-and-using-ruby-with-it/" target="_blank"> Installing MySQL on Windows 7</a>
+
+  An alternative is to use <a href="http://www.apachefriends.org/en/xampp.html" target="_blank"> XAMPP</a> instead of RailsInstaller. You might still need to look at the guide above to get MySQL2 gem working.
+
+    #install the MySQL2 Library
+    gem install mysql2
 
 
-* Maricris Nonato will speak about Software Development in general.
-* Bryan Bibat will give introduction to Ruby and Ruby on Rails.
-* Some coaches will give quick notes on developing Ruby on Rails applications.
-* You will be grouped after the talks.
+* For Ubuntu/ Debian users
+
+    #install MySQL
+    sudo apt-get install mysql-server-5.1 libmysqlclient15-dev
+
+
+    #install the MySQL2 Library
+    gem install mysql2
+
+* For Mac OS X users
+
+    #install MySQL
+    brew install mysql
+
+  or <a href="http://dev.mysql.com/downloads/mysql/5.1.html" target="_blank">Download from MySQL website</a> and install.
+
+
+    #install the MySQL2 Library
+    gem install mysql2
+
+
+* For those using RVM (on either Mac or Linux), it would help to upgrade to <a href="http://www.ruby-lang.org/en/news/2012/11/09/ruby-1-9-3-p327-is-released/" target="_blank">Ruby 1.9.3 patchlevel 327</a> if you don't already use it.
+
+
+    #Updgrade
+    rvm get latest
+    rvm reinstall 1.9.3
+
+
+#### PostgreSQL
+
+
+* For Ubuntu/ Debian users
+
+     #install MySQL
+    sudo apt-get install postgresql-client
+
+
+    #install the PG library
+    gem install pg
+
+* For Mac OS X users
+
+    #install PostgreSQL
+    brew install posgtresql
+
+    brew info postgresql
+
+    #install the PG library
+
+    gem install pg
+
+
+
+### Is it working?
+
+You should see errors when you try to start the server.
+
+    rails s
+
+
+
+### Learning about environments
+
+We normal work in at least three different environments: **development**, **test** and **production**. Under certain circumstances, another environment called "staging" exists. Rails intuitively gives us the option to add these staging environment by replicating the production environment.
+
+
 
 ## Organizers and Partners
-### <a target="_blank" href="http://groups.google.com/group/ruby-phil">Philippine Ruby Users Group</a>
 
-### <a target="_blank" href="http://devcon.ph/">DevCon</a>
-#### <a target="_blank" href="http://webgeek.ph/">WebGeek Philippines</a>
+### <a href="http://groups.google.com/group/ruby-phil" target="_blank">Philippine Ruby Users Group</a>
+
+### <a href="http://devcon.ph/" target="_blank">DevCon</a>
+#### <a href="http://webgeek.ph/"  target="_blank">WebGeek Philippines</a>
 
 
 ## Sponsors
 ---------------------------------------
 
-### <a target="_blank" href="http://aelogica.com/">Aelogica</a>
-### <a target="_blank" href="http://smart.com.ph/">SMART Communications, Inc. </a>
-#### <a target="_blank" href="http://www.proudcloud.net/">Proudcloud</a>
-#### <a target="_blank" href="http://www.sourcepad.com/">SourcePad</a>
-#### <a target="_blank" href="http://www.globe.com.ph">Globe Labs</a>
-#### <a target="_blank" href="http://www.exist.com/">Exist Software Labs, Inc.</a>
+### <a href="http://aelogica.com/" target="_blank">Aelogica</a>
+### <a href="http://smart.com.ph/" target="_blank">SMART Communications, Inc. </a>
+#### <a href="http://www.proudcloud.net/" target="_blank">Proudcloud</a>
+#### <a href="http://www.sourcepad.com/" target="_blank">SourcePad</a>
+#### <a href="http://www.globe.com.ph" target="_blank">Globe Labs</a>
+#### <a href="http://www.exist.com/" target="_blank">Exist</a>
+
