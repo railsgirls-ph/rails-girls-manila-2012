@@ -33,7 +33,7 @@ Coaches should guide participants on what to use.
 
     // install the MySQL2 Library
 
-   <pre>
+   <pre class="brush: shell">
     gem install mysql2
    </pre>
 
@@ -41,27 +41,30 @@ Coaches should guide participants on what to use.
 * For Ubuntu/ Debian users
 
     // install MySQL
-   <pre>
+
+   <pre class="brush: shell">
     sudo apt-get install mysql-server-5.1 libmysqlclient15-dev
    </pre>
 
     // install the MySQL2 Library
-   <pre>
+
+   <pre class="brush: shell">
     gem install mysql2
    </pre>
 
 * For Mac OS X users
 
     // install MySQL
-   <pre>
+
+   <pre class="brush: shell">
     brew install mysql
    </pre>
 
   or <a href="http://dev.mysql.com/downloads/mysql/5.1.html" target="_blank">Download from MySQL website</a> and install.
 
-
     // install the MySQL2 Library
-   <pre>
+
+   <pre class="brush: shell">
     gem install mysql2
    </pre>
 
@@ -69,7 +72,8 @@ Coaches should guide participants on what to use.
 
 
     // Upgrade
-   <pre>
+
+   <pre class="brush: shell">
     rvm get latest
     rvm reinstall 1.9.3
    </pre>
@@ -80,26 +84,29 @@ Coaches should guide participants on what to use.
 * For Ubuntu/ Debian users
 
     //install MySQL
-   <pre>
+
+   <pre class="brush: shell">
     sudo apt-get install postgresql-client
    </pre>
 
     // install the PG library
-   <pre>
+
+   <pre class="brush: shell">
     gem install pg
    </pre>
 
 * For Mac OS X users
 
     // install PostgreSQL
-   <pre>
-    brew install posgtresql
 
+   <pre class="brush: shell">
+    brew install posgtresql
     brew info postgresql
    </pre>
 
    // install the PG library
-   <pre>
+
+   <pre class="brush: shell">
     gem install pg
    </pre>
 
@@ -107,7 +114,8 @@ Coaches should guide participants on what to use.
 ### Is it working?
 
 You should see errors when you try to start the server.
-   <pre>
+
+   <pre class="brush: shell">
     rails s
    </pre>
 
