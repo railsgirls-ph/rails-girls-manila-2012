@@ -55,5 +55,5 @@
 ## The future of Rails
 
 <ul>
-  <li><a href="http://vimeo.com/51181496" title="Rails 4: Whirlwind Tour" target="_blank">Rails 4: Whirlwind Tour</a>>/li>
+  <li><a href="http://vimeo.com/51181496" title="Rails 4 Whirlwind Tour" target="_blank">Rails 4: Whirlwind Tour</a>>/li>
 </ul>
