@@ -1,7 +1,6 @@
 # Style Guides
 
-A list of community-accepted standards for writing good code in different languages usually needed or required for Ruby on Rails development.
-
+A list of community-accepted standards for writing good code in different languages and frameworks usually needed or required for Ruby on Rails development.
 
 <ul>
   <li><a href="https://github.com/bbatsov/ruby-style-guide" title="Ruby Style Guide" target="_blank">Ruby Style Guide</a></li>

@@ -22,10 +22,3 @@
   <li><a href="http://ruby.bastardsbook.com" title="The Bastards Book of Ruby" target="_blank">The Bastards Book of Ruby</a></li>
 </ul>
 
-
-## Presentations
-
-<ul>
-  <li> <a href="https://speakerdeck.com/bkeepers/9-things-every-ruby-newbie-should-know" title="Every Ruby Newbie Should Know" target="_blank" title="9 Things Every Ruby Newbie Should Know">9 Things Every Ruby Newbie Should Know</a></li>
-</ul>
-

@@ -2,7 +2,7 @@
 
 ## Overview
 
-<a href="http://railsgirls.com/" target="_blank">Rails Girls</a> is a global effort to help girls learn programming and the Ruby on Rails framework.
+Rails Girls is a global effort to help girls learn programming and the Ruby on Rails framework.
 
 This guide is written primarily for Rails Girls Manila participants. It was written for beginners and those who have some experience in programming but have not tried Ruby on Rails.
 
@@ -120,6 +120,13 @@ You should see errors when you try to start the server.
 ### Learning about environments
 
 We normal work in at least three different environments: **development**, **test** and **production**. Under certain circumstances, another environment called "staging" exists. Rails intuitively gives us the option to add these staging environment by replicating the production environment.
+
+
+## Rails Girls In Other Countries
+
+### <a href="http://railsgirlsberlin.de" target="_blank">Berlin</a>
+### <a href="https://twitter.com/railsgirlstokyo" target="_blank">Tokyo</a>
+
 
 ## Organizers and Partners
 
