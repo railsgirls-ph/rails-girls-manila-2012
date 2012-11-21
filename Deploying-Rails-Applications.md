@@ -163,7 +163,7 @@ heroku run rake db:migrate
 
 ## Contributing
 
-1. <a href ="https://github.com/railsgirls-ph/rails-girls-manila-2012" target="_blank"> Fork the project</a>
+1. Fork the project at https://github.com/railsgirls-ph/rails-girls-manila-2012
 2. Install maruku
 <pre class="brush: shell">
 gem install maruku

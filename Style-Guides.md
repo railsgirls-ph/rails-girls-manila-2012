@@ -2,7 +2,7 @@
 
 A list of community-accepted standards for writing good code in different languages and frameworks usually required for Ruby on Rails development.
 
-## <a href="https://github.com/bridgeutopia/interface-style-guide" target="_blank">Interface Style Guide </a>
+## <a href="http://bridgeutopia.github.com/interface-style-guide/" title="Interface Style Guide for Ruby Projects" target="_blank">Interface Style Guide for Ruby Projects </a>
 Because we develop from outside-in, it is important to focus on learning **interface style guides**.
 This style guide in progress is something which we use and may be helpful for you:
 
@@ -32,7 +32,7 @@ This style guide in progress is something which we use and may be helpful for yo
 
 ## Contributing
 
-1. <a href ="https://github.com/railsgirls-ph/rails-girls-manila-2012" target="_blank"> Fork the project</a>
+1. Fork the project at https://github.com/railsgirls-ph/rails-girls-manila-2012
 2. Install maruku
 <pre class="brush: shell">
 gem install maruku

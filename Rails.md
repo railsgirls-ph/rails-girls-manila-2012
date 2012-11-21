@@ -25,7 +25,7 @@
 ## HTML 5, Javascript, Coffeescript, HAML, SASS and SCSS
 
 <ul>
-<li><a href="https://github.com/bridgeutopia/interface-style-guide" target="_blank" title="Interface Style Guide">Interface Style Guide</a></li>
+<li><a href="http://bridgeutopia.github.com/interface-style-guide/" target="_blank" title="Interface Style Guide">Interface Style Guide</a></li>
 <li><a href="https://github.com/airbnb/javascript" target="_blank" title="Javascript Style Guide">Javascript Style Guide</a></li>
 <li><a href="https://github.com/madrobby/pragmatic.js" target="_blank" title="Pragmatic.js">Pragmatic.js</a></li>
 <li><a href="https://github.com/styleguide/javascript" target="_blank" title="Github's Javascript Style Guide">Github's Javascript Style Guide</a></li>
