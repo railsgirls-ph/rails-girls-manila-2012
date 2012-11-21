@@ -3,8 +3,8 @@
 ## Rails Girls Guides and Materials
 
 <ul>
-  <li><a href="http://guides.railsgirls.com/" title="Official Rails Girls Guides"  target="_blank">Official Rails Girls Guides</a>
-  <li><a href="https://kippt.com/railsgirls/rails-girls-materials" title="Rails Girls Materials" target="_blank">Rails Girls Materials</a>
+  <li><a href="http://guides.railsgirls.com/" title="Official Rails Girls Guides"  target="_blank">Official Rails Girls Guides</a></li>
+  <li><a href="https://kippt.com/railsgirls/rails-girls-materials" title="Rails Girls Materials" target="_blank">Rails Girls Materials</a></li>
 </ul>
 
 ## Recommended Guides
@@ -23,6 +23,7 @@
 ## HTML 5, Javascript, Coffeescript, HAML, SASS and SCSS
 
 <ul>
+  <li><a href="https://github.com/bridgeutopia/interface-style-guide" target="_blank" title="Interface Style Guide">Interface Style Guide</a></li>
   <li><a href="https://github.com/airbnb/javascript" target="_blank" title="Javascript Style Guide">Javascript Style Guide</a></li>
   <li><a href="https://github.com/madrobby/pragmatic.js" target="_blank" title="Pragmatic.js">Pragmatic.js</a></li>
   <li><a href="http://docs.jquery.com/JQuery_Core_Style_Guidelines" target="_blank" title="jQuery Core Style Guidelines">jQuery Core Style Guidelines</a></li>
