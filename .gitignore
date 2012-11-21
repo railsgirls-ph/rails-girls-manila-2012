@@ -1,0 +1,62 @@
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist
+log
+config/database.yml
+.bundle
+
+#OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+#Linux
+.*
+!.gitignore
+*~
+
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+### SASS Ignores - "Sassy CSS" http://sass-lang.com/
+*.sass-cache
+
+
+# SublimeText project files
+*.sublime-workspace
+
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+#Ruby
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+test/tmp
+test/version_tmp
+tmp
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+
+#HTML files
+*.html

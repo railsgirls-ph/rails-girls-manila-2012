@@ -161,7 +161,17 @@ heroku run rake db:migrate
 
 <a href ="https://blog.bridgeutopiaweb.com" target="_blank"> Katherine G. Pe</a>, software developer.
 
-
 ## Contributing
 
-<a href ="https://github.com/railsgirls-ph/rails-girls-manila-2012" target="_blank"> Fork the project and create a pull request if you have some changes</a>
+1. <a href ="https://github.com/railsgirls-ph/rails-girls-manila-2012" target="_blank"> Fork the project</a>
+2. Install maruku
+<pre class="brush: shell">
+gem install maruku
+</pre>
+3. Make your changes
+4. Test your changes
+<pre class="brush: shell">
+maruku Deploying-Rails-Applications.md
+</pre>
+5. Commit and create a pull request
+

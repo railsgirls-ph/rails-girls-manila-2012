@@ -24,3 +24,22 @@ This style guide in progress is something which we use and may be helpful for yo
 <li><a href="https://github.com/bbatsov/rails-style-guide" target="_blank" title="Rails Style Guide">Rails Style Guide</a></li>
 <li><a href="http://betterspecs.org/" target="_blank" title="Better Specs">Better Specs</a></li>
 </ul>
+
+## Contributors to this guide
+
+<a href ="https://blog.bridgeutopiaweb.com" target="_blank"> Katherine G. Pe</a>, software developer.
+
+
+## Contributing
+
+1. <a href ="https://github.com/railsgirls-ph/rails-girls-manila-2012" target="_blank"> Fork the project</a>
+2. Install maruku
+<pre class="brush: shell">
+gem install maruku
+</pre>
+3. Make your changes
+4. Test your changes
+<pre class="brush: shell">
+maruku Style-Guides.md
+</pre>
+5. Commit and create a pull request

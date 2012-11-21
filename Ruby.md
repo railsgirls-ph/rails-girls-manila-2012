@@ -22,3 +22,16 @@
   <li><a href="http://ruby.bastardsbook.com" title="The Bastards Book of Ruby" target="_blank">The Bastards Book of Ruby</a></li>
 </ul>
 
+## Contributing
+
+1. <a href ="https://github.com/railsgirls-ph/rails-girls-manila-2012" target="_blank"> Fork the project</a>
+2. Install maruku
+<pre class="brush: shell">
+gem install maruku
+</pre>
+3. Make your changes
+4. Test your changes
+<pre class="brush: shell">
+maruku Git.md
+</pre>
+5. Commit and create a pull request
