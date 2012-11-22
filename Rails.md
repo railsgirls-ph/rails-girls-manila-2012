@@ -56,3 +56,16 @@
 <li><a href="https://www.ruby-toolbox.com"  target="_blank" title="The Ruby Toolbox">The Ruby Toolbox</a></li>
 </ul>
 
+## Contributing
+
+1. Fork the project at https://github.com/railsgirls-ph/rails-girls-manila-2012
+2. Install maruku
+<pre class="brush: shell">
+gem install maruku
+</pre>
+3. Make your changes
+4. Test your changes
+<pre class="brush: shell">
+maruku Rails.md
+</pre>
+5. Commit and create a pull request

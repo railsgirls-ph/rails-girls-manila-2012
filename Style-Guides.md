@@ -4,7 +4,7 @@ A list of community-accepted standards for writing good code in different langua
 
 ## <a href="http://bridgeutopia.github.com/interface-style-guide/" title="Interface Style Guide for Ruby Projects" target="_blank">Interface Style Guide for Ruby Projects </a>
 Because we develop from outside-in, it is important to focus on learning **interface style guides**.
-This style guide in progress is something which we use and may be helpful for you:
+This style guide in progress is something which we use and may be helpful for you.
 
 ## Other Interface Style Guides
 
