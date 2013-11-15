@@ -119,8 +119,8 @@ You should see errors when you try to start the server.
 
 ### Learning about environments
 
-We normal work in at least three different environments: **development**, **test** and **production**. Under certain circumstances, another environment called "staging" exists. Rails intuitively gives us the option to add these staging environment by replicating the production environment.
-
+We normally work in at least three different environments: **development**, **test** and **production**.
+Under certain circumstances, another environment called "staging" exists. Rails intuitively gives us the option to add these staging environment by replicating the production environment config.
 
 ## Rails Girls In Other Countries
 

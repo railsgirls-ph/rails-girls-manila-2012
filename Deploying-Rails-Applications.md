@@ -34,10 +34,10 @@ Rename the app and the URL via heroku.com.
 
 <pre class="brush: shell">
 rails -v
-Rails 3.2.8
+Rails 4.0.1
 </pre>
 
-Otherwise, please install rails.
+Otherwise, please install the latest version of rails.
 
 <pre class="brush: shell">
 gem install rails
@@ -103,7 +103,6 @@ heroku config:add RG_PORT port
 Update the app config/database.yml
 
 <pre class="brush: ruby">
-
 production:
   adapter: postgresql
   encoding: unicode
@@ -141,6 +140,15 @@ Update the text as you wish on app/views/home/index.html.erb
 
 #### Deploying is very simple
 
+#### Add another gem to improve Heroku support for Rails
+
+<pre class="brush: ruby">
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
+</pre>
+
 <pre class="brush: shell">
 git push heroku master
 </pre>
@@ -150,7 +158,6 @@ git push heroku master
 <pre class="brush: shell">
 heroku run rake db:migrate
 </pre>
-
 
 ## Credits
 

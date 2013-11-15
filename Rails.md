@@ -26,7 +26,7 @@
 
 <ul>
 <li><a href="http://bridgeutopia.github.com/interface-style-guide/" target="_blank" title="Interface Style Guide">Interface Style Guide</a></li>
-<li><a href="https://github.com/airbnb/javascript" target="_blank" title="Javascript Style Guide">Javascript Style Guide</a></li>
+<li><a href="https://github.com/airbnb/javascript" target="_blank" title="JavaScript Style Guide">JavaScript Style Guide</a></li>
 <li><a href="https://github.com/madrobby/pragmatic.js" target="_blank" title="Pragmatic.js">Pragmatic.js</a></li>
 <li><a href="https://github.com/styleguide/javascript" target="_blank" title="Github's Javascript Style Guide">Github's Javascript Style Guide</a></li>
 <li><a href="https://github.com/styleguide/css" target="_blank" title="Github's CSS Style Guide">Github's CSS Style Guide</a></li>
@@ -46,7 +46,7 @@
 ## Recommended Books
 
 <ul>
-<li><a href="http://www.manning.com/katz" target="_blank" title="Rails 3 in Action">Rails 3 in Action</a></li>
+<li><a href="http://www.manning.com/bigg2/" target="_blank" title="Rails 4 in Action">Rails 4 in Action</a></li>
 </ul>
 
 
